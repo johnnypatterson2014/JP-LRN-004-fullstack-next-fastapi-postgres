@@ -13,8 +13,11 @@ python -m venv .venv
 // install dependencies
 pip install -r requirements.txt
 
-// run the backend server
+// run the backend server (for local dev)
 uvicorn main:app --reload
+
+// in the cloud, use this instead:
+uvicorn main:app --host 0.0.0.0 --port 8000
 
 // view on localhost
 http://127.0.0.1:8000/docs
