@@ -49,6 +49,9 @@ select * from todos
 \q
 ```
 
+Render.com postgres settings: see .env file
+
+
 ## -------------------------------------------------------------------------------
 ## frontend
 ```
@@ -60,5 +63,8 @@ npm run dev
 
 // view on localhost
 http://localhost:3000
+
+// deployed to vercel
+https://jp-lrn-004-vercel.vercel.app/
 
 ```
